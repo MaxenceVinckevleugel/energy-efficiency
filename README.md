@@ -32,6 +32,12 @@ The web interface will guide you to input various house characteristics, and pro
 ## Requirements
 For the required Python packages, please refer to requirements.txt. Install these packages using:
 
+## Docker
+```
+ docker build -t energy-efficiency .
+ docker run --rm energy-efficiency
+```
+
 pip install -r requirements.txt
 
 ## Acknowledgments
